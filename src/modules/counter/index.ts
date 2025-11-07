@@ -1,0 +1,6 @@
+export { CounterProvider } from './contexts/counter-provider'
+export { CounterWithContext } from './ui/counter-with-context'
+export { CounterWithHook } from './ui/counter-with-hook'
+export { useCounter } from './hooks/use-counter'
+export { useCounterContext } from './hooks/use-counter-context'
+export type { CounterContextType } from './contexts/counter-context'

@@ -1,0 +1,36 @@
+.count_container{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+}
+.incrementBtn, .decrementBtn{
+  background-color: #646cff;
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 8px;
+}
+.resetBtn{
+  background-color: rgb(212, 94, 94);
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 8px;
+}
+.incrementBtn:hover, .decrementBtn:hover{
+  background-color:  #535bf2;
+  border: none;
+}
+.resetBtn:hover{
+  background-color: rgb(197, 52, 52);
+  border: none;
+}
